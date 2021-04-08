@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <title> BR Hotel | Contato </title>
+</head>
+<body>
+   <header>
+       <nav id="navbar">
+           <div class="container">
+                <h1 class="logo"><a href="index.html"> BRH </a></h1>
+                <ul>
+                    <li><a href="index.html"> Início </a></li>
+                    <li><a href="about.html"> Sobre </a></li>
+                    <li><a class="current" href="Contato.html"> Contato </a></li>
+                </ul>
+           </div>
+       </nav>
+   </header>
+
+   <section id="contact-form" class="py-3">
+       <div class="container">
+           <h1 class="l-heading"> <span class="text-primary">Contate</span>-Nos </h1>
+           <p> Por favor, preencha o formulário abaixo </p>
+           <form action="process.php">
+               <div class="form-group">
+                    <label for="name"> Nome </label>
+                    <input type="text" name="name" id="name">
+               </div>
+               <div class="form-group">
+                    <label for="email"> Email </label>
+                    <input type="email" name="email" id="email">
+               </div>
+               <div class="form-group">
+                    <label for="message"> Mensagem </label>
+                    <textarea name="message" id="message"></textarea>
+               </div>
+               <button type="submit" class="btn"> Enviar </button>
+           </form>
+       </div>
+   </section>
+
+   <section id="contact-info" class="bg-dark">
+        <div class="container">
+            <div class="box">
+                <i class="fas fa-hotel fa-3x"></i>
+                <h3> Localização </h3>
+                <p> Belford Roxo, RJ </p>
+            </div>
+            <div class="box">
+                <i class="fas fa-phone fa-3x"></i>
+                <h3> Número do telefone </h3>
+                <p> (21) 987456321 </p>
+            </div>
+            <div class="box">
+                <i class="fas fa-envelope fa-3x"></i>
+                <h3> Endereço de email </h3>
+                <p> brhotel@gmail.com </p>
+            </div>
+        </div>
+   </section>
+
+   <footer id="main-footer">
+        <p> BR Hotel &copy; 2019, Todos os direitos reservados. </p>
+   </footer>
+</body>
+</html>
